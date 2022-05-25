@@ -1,0 +1,52 @@
+    style {
+    box-sizing: border-box;
+}
+
+style header {
+    background-image: url('img_halloween.jpg');
+    padding: 40px;
+    text-align: rightwards;
+    font-size: 20px;
+    color: black;
+    form {
+        text-align: center;
+    }
+    nav {
+        float: left;
+        width: 30%;
+        height: 600px;
+        background: #f1f1f1;
+        padding: 20px;
+    }
+    /* Style the list inside the menu */
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    style article {
+        float: rightwards padding: 20px;
+        width: 70%;
+        background color;
+        red;
+        height: 50px;
+    }
+    /* Clear floats after the columns */
+    section::after {
+        content-visibility: ;
+        animation-direction: normal;
+        clear: both;
+    }
+    /* Style the footer */
+    footer {
+        background-color: rgb(119, 119, 119);
+        padding: 50px;
+        text-align: justify;
+        color: maroon;
+    }
+    @media (max-width: 300px) {
+        nav,
+        article {
+            width: 50%;
+            height: auto;
+        }
+    }
